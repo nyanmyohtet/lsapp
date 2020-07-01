@@ -1,6 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
+# vendor files for laravel-ckeditor
+/public/vendor/unisharp
 /storage/*.key
 /vendor
 /.idea

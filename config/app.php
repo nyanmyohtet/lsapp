@@ -169,6 +169,11 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
         /*
+         * Third-party Service Providers...
+         */
+        Unisharp\Ckeditor\ServiceProvider::class,
+
+        /*
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
