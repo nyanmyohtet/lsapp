@@ -13,4 +13,5 @@
         </div>
         {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
+    @include('inc.ckeditor')
 @endsection
