@@ -12,4 +12,8 @@ class Post extends Model
     public $primaryKey = 'id';
     // Timestamps
     public $timestamps = true;
+    // ER with User Model
+    public function user() {
+        return $this->belongsTo('App\User');
+    }
 }
